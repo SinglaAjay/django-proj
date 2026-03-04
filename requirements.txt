@@ -3,4 +3,4 @@ Django==6.0.2
 sqlparse==0.5.5
 tzdata==2025.3
 pyodbc==5.3.0
-nummpy==2.4.2
+numpy==2.4.2
