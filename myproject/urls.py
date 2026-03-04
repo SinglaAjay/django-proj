@@ -18,10 +18,11 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
 
-from myproject.views import contact
+from myproject.views import contact, submit_contact
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('contact/', contact, name='contact'),
+    path('submit_contact/', submit_contact, name='submit_contact'),
 
 ]
